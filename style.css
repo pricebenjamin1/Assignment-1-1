@@ -5,4 +5,13 @@
 .lower_roman {
  list-style-type: lower-roman;
 }
+table, td {
+  width: 35%;
+  border: 1px solid black;
+  text-align: left;
+}
+th {
+  border: 1px solid black;
+  text-align: center;
+}
 </style>
