@@ -1,17 +1,56 @@
-<style type="text/css">
+<style type ="text/css">
+
+header{
+width: 100%;
+}
+
+footer{
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+nav{
+  text-align: right;
+}
+main{
+  font-family: sans-serif;
+}
+img{
+  scale: 100%;
+}
+.bluebg{
+  background-color: rgb(190, 220, 253)
+}
+h1{
+  text-align: center;
+}
+
+
 .upper_roman {
  list-style-type: upper-roman;
 }
 .lower_roman {
  list-style-type: lower-roman;
 }
-table, td {
+table{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  width: 35%;
+  border: 1px solid black;
+  text-align: left;
+  color: green
+}
+
+td {
   width: 35%;
   border: 1px solid black;
   text-align: left;
 }
 th {
+  color: white;
+  background-color: black;
   border: 1px solid black;
   text-align: center;
 }
+tr:nth-child(even) {background-color:lightgrey;}
 </style>
