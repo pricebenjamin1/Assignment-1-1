@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+  <div class="grid-container">
+
+    <img src="Images/Bulb-banner.jpg" class="header">
+
+    <nav class="nav">
+      <br>
+      <a href="index.html" class="a">Home</a><br><br>
+      <a href="Page1.html" class="a">Page1</a><br><br>
+      <a href="Page2.html" class="a">Page2</a><br><br>
+      <a href="Page3.html" class="a">Page3</a><br><br>
+      <a href="https://www.columbusstate.edu/l" class="a">CSU Home Page</a><br><br>
+    </nav>
+
+    <main class="main">
+      <form action="https://webdevbasics.net/scripts/yoga.php" method="POST" class="leftAlign">
+        <label for="firt">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="First" size=25 maxlength="50" required><br><br>
+        <label for="last">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Last" size=25 maxlength="50" required><br><br>
+
+        <label for="State">State</label>
+        <select name="State" id="State" required>
+          <option value="Alabama">AL</option>
+          <option value="Florida">FL</option>
+          <option value="Georgia">GA</option>
+        </select><br><br>
+
+        <label for="last">Email:</label>
+        <input type="email" id="email" name="email" placeholder="JohnDoe@emailprovider.com" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+        <p>Please select your martial state:<br>
+        <input type="radio" id="MSGeorgia" name="Martial State" value="Alabama"  required>
+        <label for="Georgia">GA</label><br>
+        <input type="radio" id="MSAlabama" name="Martial State" value="Alabama">
+        <label for="Alabama">AL</label><br><br>
+        
+        <p>Select your skills:</p>
+        <input type="checkbox" id="skills" name="Python" value="Python">
+        <label for="Python">Python</label><br>
+        <input type="checkbox" id="skills" name="Java" value="Java">
+        <label for="Java">Java</label><br>
+        <input type="checkbox" id="skills" name="HTML" value="HTML">
+        <label for="HTML">HTML</label><br><br>
+
+        <label for="comment">Comment:</label>
+        <input type="text" id="comment" name="comment" placeholder="Your comment." required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password." minlength="8" required><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+    </main>
+
+    <aside>
+      <p>Write a CSS rule for the table so that the odd rows have a light gray background. The header row
+style should provide white text and a black background color. Change the table font to a 1.5 em size,
+serif font-family. Pick a font color for the rest of the table data.</p>
+    </aside>
+
+    <footer class="footer">
+      Contact Information: Ben - 706-754-8464
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+  </body>
+</html>
